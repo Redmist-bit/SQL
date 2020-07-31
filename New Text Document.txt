@@ -8,3 +8,8 @@ CREATE TABLE items(id int AUTO_INCREMENT, name varchar(255), description varchar
 CREATE TABLE categories(id int AUTO_INCREMENT, name varchar(255), PRIMARY KEY(id));
 
 nomor3
+INSERT INTO users (name,email,password) VALUES('John Doe', 'john@doe.com', 'john123');
+INSERT INTO users (name,email,password) VALUES('Jane Doe', 'jane@doe.com', 'jenita123');
+
+nomor4
+INSERT INTO categories(name) VALUES('gadget'),('cloth'),('men'),('women'),('branded');
